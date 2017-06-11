@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Garden</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="home()">
+   
+    <div class="nav">
+        <ol>
+            <li><a onclick="home(), reset()" href="#"><b>Home</b></a></li>
+            <!--<script>
+            var licz = 1;
+                
+            function licznik()
+            {
+            licz++;
+    
+            if(licz%2==0)
+            {
+                var home = $("#home");
+                home.animate({left: '700px'}, "slow");
+            }
+            else
+            {
+                var reset_h = $("#home");
+                reset_h.animate({left: '-200px'}, "slow");
+            }
+                }
+            </script>-->
+            <li><a onclick="cennik(),reset()" href="#"><b>Cennik</b></a></li>
+            <li><a onclick="galeria(), reset()" href="#"><b>Galeria</b></a></li>
+            <li><a onclick="kontakt(), reset()" href="#"><b>Kontakt</b></a></li>
+        </ol>
+    </div>
+    <div id="content">
+        
+        <div id="home">
+        Witamy na Naszej stronie     
+        </div>
+        
+          <div id="cennik">
+        DAADADADADDAADA
+        </div>
+        
+        <div id="galeria">
+        DAADADADADDAADA
+        </div>
+        
+        <div id="kontakt">
+        DAADADADADDAADA
+        </div>
+    </div>
+    <div id="footer">
+        
+    </div>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+$(document).ready(function() {
+   var stickyNavTop = $('.nav').offset().top;
+
+   var stickyNav = function(){
+   var scrollTop = $(window).scrollTop();
+
+   if (scrollTop > stickyNavTop) { 
+      $('.nav').addClass('sticky');
+   } else {
+      $('.nav').removeClass('sticky');
+    }
+   };
+
+   stickyNav();
+
+   $(window).scroll(function() {
+      stickyNav();
+   });
+   });
+
+</script>
+</body>
+</html>

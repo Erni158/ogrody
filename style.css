@@ -1,0 +1,143 @@
+body
+{
+    background-image: url(img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    margin: 0px;
+	padding: 0px;
+}
+
+.nav
+{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    background-color: #fff;
+    float: left;
+    font-size: 26px;
+    color: #000;
+    opacity: 0.75;
+    clear: both;
+}
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#content
+{
+    height: 1000px;
+}
+
+#home
+{
+    background-color: #3e3e45; 
+    width: 1800px; 
+    float: left;
+    height: 650px; 
+    text-align: center;
+    font-size: 34px;
+    text-shadow: 2px 2px #000;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: #c39120;
+    margin-left: -1850px;
+    margin-top: 150px;
+    position: fixed;
+    border-radius: 25px;
+}
+
+#cennik
+{
+    background-color: #3e3e45; 
+    width: 1800px; 
+    float: left;
+    height: 650px; 
+    text-align: center;
+    font-size: 34px;
+    text-shadow: 2px 2px #000;
+    font-family: serif;
+    color: #c39120;
+    margin-left: -1850px;
+    margin-top: 150px;
+    position: fixed;
+    border-radius: 25px;
+}
+
+#galeria
+{
+    background-color: #8787e2; 
+    width: 200px; 
+    float: left;
+    height: 200px; 
+    text-align: center;
+    color: aqua;
+    margin-left: -200px;
+    margin-top: 250px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+#kontakt
+{
+    background-color: #128d12; 
+    width: 200px; 
+    float: left;
+    height: 200px; 
+    text-align: center;
+    color: aqua;
+    margin-left: -200px;
+    margin-top: 250px;
+    position: absolute;
+    border-radius: 25px;
+}
+#footera
+{
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    clear: both;
+    bottom: 0;
+    opacity: 0.75;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 95px;
+    line-height: 103px;
+    display: inline-block;
+}
+
+ol a
+{
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+ol > li
+{
+    float: left;
+    width: 400px;
+    height: 103px;
+    border-right: 2px dashed lightgray;
+}
+
+ol > li:first-child
+{
+    border-left: 2px dashed lightgray;
+}
+
+ol > li:hover
+{
+    background-color: #b4b0b0;
+}
