@@ -1,1 +1,2 @@
 # ogrody
+My first code :)
